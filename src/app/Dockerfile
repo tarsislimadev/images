@@ -1,3 +1,7 @@
-FROM nginx:alpine
+FROM node:alpine
 
-COPY . /usr/share/nginx/html
+WORKDIR /app
+
+COPY . .
+
+CMD npm start

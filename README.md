@@ -20,6 +20,10 @@ gh repo clone brtmvdl/images
 bash ./env/up.sh app
 ```
 
+http://localhost:8080/?text=abc&bgcolor=red&fgcolor=blue&width=800&height=600
+
+![abc](./images/abc.png)
+
 ## author
 
 [@brtmvdl](https://www.linkedin.com/in/brtmvdl/)
